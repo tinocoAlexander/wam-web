@@ -1,0 +1,74 @@
+/* src/pages/Page14.css */
+
+.page14 {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, white, #f67a8e);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 30px;
+  }
+  
+  .suggestion-box {
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .suggestion-box p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .back-button {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: #f67a8e;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .continue-button {
+    background-color: #e60c3b;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+  .continue-button:hover {
+    background-color: #c40a34;
+  }
+  
+  .logo-container {
+    position: absolute;
+    margin-left: 950px;
+    top: 20px;
+    left: 20px;
+  }
+  

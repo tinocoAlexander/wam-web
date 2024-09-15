@@ -1,0 +1,58 @@
+/* index.css */
+
+/* Reset CSS básico para eliminar márgenes y paddings predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos globales para el cuerpo de la página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Estilos para enlaces */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Estilos para imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Clases de utilidad */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para botones */
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  
+  /* Estilos para encabezados */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
+  
+  /* Estilos para listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Estilos para formularios */
+  input, select, textarea {
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  

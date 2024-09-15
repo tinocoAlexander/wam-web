@@ -1,0 +1,125 @@
+/* Reset y estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo */
+.page4 {
+    font-family: Arial, sans-serif;
+    background: url('../images/p1.png') no-repeat center center/cover;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 100, 125, 0.5);
+}
+
+/* Contenedor principal */
+.container {
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* Opciones */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.options label {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    cursor: pointer;
+}
+
+.options input {
+    display: none;
+}
+
+.options input:checked + label {
+    border-color: #e60c3b;
+    background-color: #f9ecee;
+}
+
+/* Botón de continuar */
+.continue-button {
+    background-color: #e60c3b;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button:hover {
+    background-color: #c40a34;
+}
+
+/* Botón de retroceso */
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #e60c3b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Logo */
+.logo-container {
+    position: absolute;
+    margin-top: -200px;
+    top: 20px;
+    right: 20px;
+}
+
+/* Barra de progreso */
+.progress-bar {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar div {
+    width: 14%; /* Ajusta este valor según el progreso */
+    height: 10%;
+    background-color: #e60c3b;
+}
